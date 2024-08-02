@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+@media (min-width: 46em) {
+    .header-container {
+        padding: 0 24px;
+        padding-top: 0px;
+        padding-right: 24px;
+        padding-bottom: 0px;
+        padding-left: 24px;
+        gap: 16px;
+        row-gap: 16px;
+        column-gap: 16px;
+    }
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 25px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.profile-button {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.main-container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 35px;
+    text-align: center;
+}
+
+.store {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    gap: 35px;
+    margin-top: 20px;
+}
+
+.store-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+
+.store-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.store-item:hover {
+    transform: translateY(-10px);
+}
+
+.store-item a {
+    display: block;
+    padding-bottom: 15px;
+    text-align: justify;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.download-section {
+    padding: 20px;
+    margin: 90px;
+    margin-top: 60px;
+    background-color: #ffffff7e;
+    border-radius: 10px;
+}
+
+.game-logos {
+    width: 100%;
+    max-width: 200px;
+}
+
+.download-buttons img {
+    padding-top: 40px;
+    padding-right: 15px;
+    width: 135px;
+    margin: 0 10px;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.footer-horizontal-raw {
+    opacity: 35%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-icons {
+    margin: 20px 0;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.footer-links {
+    margin-top: 30px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
